@@ -1,0 +1,48 @@
+
+body {
+    background-image: url('gerobak.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+h1 em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 18px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+ul ul li {
+    color: rgb(124, 21, 21);
+    font-weight: bold;
+}
+
+ul li em {
+    color: red;
+    font-style: italic;
+}
+
+a.nodec {
+    color: rgb(29, 29, 170);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.nodec:hover {
+    text-decoration: underline;
+}
